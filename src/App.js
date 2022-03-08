@@ -10,7 +10,7 @@ function App() {
             <h1>eric title</h1>
 
             <Box text="hey its you!" number={42} />
-            <Box text="hey its me!" number={43} />
+            <Box text="hey its me!" number={-43} />
 
             <Box text="Another" number={88}>
                 <h3>child here</h3>
