@@ -9,10 +9,12 @@ function App() {
             <button className="btn btm-primary">Click Me</button>
             <h1>eric title</h1>
 
+            <Box text="hey its you!" number={42} />
+            <Box text="hey its me!" number={43} />
 
-        <Box text="hey its you!"/>
-        <Box text="hey its me!"/>
-
+            <Box text="Another" number={88}>
+                <h3>child here</h3>
+            </Box>
         </div>
     );
 }

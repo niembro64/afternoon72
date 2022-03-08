@@ -6,10 +6,14 @@ class Box extends Component {
     }
 
     render() {
+        const {text, number} = this.props;
+
         return(
             <div>
                 <marquee>
-                    <h1>{this.props.text}</h1>
+                    <h1>{text}</h1>
+                    <h2>{number}</h2>
+                    {this.props.children}
                 </marquee>
             </div>
         )
