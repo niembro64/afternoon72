@@ -9,7 +9,7 @@ class Box extends Component {
         const {text, number} = this.props;
 
         return(
-            <div>
+            <div className={this.props.isDark ? "box dark" : "box"}>
                 <marquee>
                     <h1>{text}</h1>
                     <h2>{number}</h2>
